@@ -18,6 +18,15 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\OtherS\Parser Generator 2\newlex\mylexer.l" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="D:\Download\Tim\b.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\OtherS\Parser Generator 2\newlex\mylexer.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{5C14B554-063C-423E-B0D7-44D994A3F294}</ProjectGuid>
@@ -128,10 +137,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="D:\Courses\19-20 一学期\编译原理\开发工具\蒋璋的\mylexer.cpp" />
-    <ClCompile Include="D:\Courses\19-20 一学期\编译原理\开发工具\蒋璋的\myparser.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

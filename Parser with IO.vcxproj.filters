@@ -15,10 +15,17 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D:\Courses\19-20 一学期\编译原理\开发工具\蒋璋的\mylexer.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\Courses\19-20 一学期\编译原理\开发工具\蒋璋的\myparser.cpp">
+    <None Include="D:\OtherS\Parser Generator 2\newlex\mylexer.l">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="D:\Download\Tim\b.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\OtherS\Parser Generator 2\newlex\mylexer.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
